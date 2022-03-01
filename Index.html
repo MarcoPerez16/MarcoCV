@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marco CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/LogoMaracas.png" class="logo maracas" alt="LogoMar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#intro-part">Introduction</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#hoob-part">Hobbies</a></li>
+            </ul>
+        </nav>
+        <a class="contact" href="#cont-but"><button>Contact</button></a>
+    </header>
+    <section class="intro" id="intro-part">
+        <h1>Marco Uriel Pérez Gutiérrez</h1>
+        <h3>Engineer, Computer Scientist</h3>
+        <hr>
+        <div class="intro-container">
+            <img src="img/ImagenMarco.JPG" class="intro-img" alt="Imagen Marco">
+            <p class="intro-text">I am a Computer Engineer by Tecnológico de Monterrey, I have a lot of knowledge of data structures, fundamental algorithms, etc. I love to work in teams and learn new things every day.</p>
+        </div>
+    </section>
+
+    <section class="sec">
+        <h2 class="title-sec">Education</h2>
+        <hr>
+        <p><span>Highschool:</span>Centro Universitario México</p>
+        <p><span>University:</span>Tecnológico de Monterrey</p>
+    </section>
+
+    <section class="sec" id="languages">
+        <h2 class="title-sec">Programming Languages</h2>
+        <hr>
+        <p>C++</p>
+        <div class="bar">
+            <div class="per c">90%</div>
+        </div>
+        <p>Java</p>
+        <div class="bar">
+            <div class="per java">60%</div>
+        </div>
+        <p>HTML</p>
+        <div class="bar">
+            <div class="per html">50%</div>
+        </div>
+        <p>CSS</p>
+        <div class="bar">
+            <div class="per css">50%</div>
+        </div>
+        <p>Python</p>
+        <div class="bar">
+            <div class="per py">50%</div>
+        </div>
+        <p>R</p>
+        <div class="bar">
+            <div class="per r">10%</div>
+        </div>
+    </section>
+
+    <section class="sec">
+        <h2 class="title-sec">Portfolio</h2>
+        <hr>
+        <article class="project">
+            <h3 class="title-pro">Recommender of streaming platforms</h3>
+            <p class="text-pro">With C++ I created a program that had all the catalog of the
+                stream apps from Disney, Prime Video and Netflix. You could search
+                movies of an special gender, range of dates, score, etc.</p>
+            <p class="text-pro"><span>Date: </span>June 2021</p>
+            <div class="project-container">
+                <a href="img/SS1.png" target="_blank"><img src="img/SS1.png" class="pro-img" alt="ImgSS1"></a>
+                <a href="img/SS2.png" target="_blank"><img src="img/SS2.png" class="pro-img-short" alt="ImgSS2"></a>
+                <a href="img/SS3.png" target="_blank"><img src="img/SS3.png" class="pro-img-short" alt="ImgSS3"></a>
+            </div>
+        </article>
+        <article class="project">
+            <h3 class="title-pro">Smart trash can</h3>
+            <p class="text-pro">With a RaspberryPi and some ultrasonic sensors we created
+                a smart trash can, with NodeRed we read date of the sensors and sent
+                it to a database created with PHPMyadmin.</p>
+            <p class="text-pro"><span>Date: </span>December 2021</p>
+            <div class="project-container">
+                <a href="img/IOT1.png" target="_blank"><img src="img/IOT1.png" class="pro-img" alt="ImgIO1"></a>
+                <a href="img/IOT2.png" target="_blank"><img src="img/IOT2.png" class="pro-img-short" alt="ImgIOT2"></a>
+                <a href="img/IOT3.png" target="_blank"><img src="img/IOT3.png" class="pro-img-short" alt="ImgIOT3"></a>
+            </div>
+        </article>
+        <article class="project">
+            <h3 class="title-pro">Database of IPs</h3>
+            <p class="text-pro">With C++ we read files that contained error access to different IPs, we saved that information in data structures and we could access them with algorithms of search and ordering.
+            </p>
+            <p class="text-pro"><span>Date: </span>December 2021</p>
+            <div class="project-container">
+                <a href="img/IP1.png" target="_blank"><img src="img/IP1.png" class="pro-img" alt="ImgIO1"></a>
+                <a href="img/IP2.png" target="_blank"><img src="img/IP2.png" class="pro-img" alt="ImgIOT2"></a>
+                <a href="img/IP3.png" target="_blank"><img src="img/IP3.png" class="pro-img-short" alt="ImgIOT3"></a>
+            </div>
+        </article>
+    </section>
+
+    <section class="sec" id="hoob-part">
+        <h2 class="title-sec">Hoobies</h2>
+        <hr>
+        <ul>
+            <li>Training at gym</li>
+            <li>Running</li>
+            <li>Cooking</li>
+            <li>Reading</li>
+            <li>Dancing</li>
+        </ul>
+    </section>
+
+    <section class="sec">
+        <h2 class="title-sec">Favorite Series</h2>
+        <hr>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Peacemaker</td>
+                <td>James Gunn</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>The Boys</td>
+                <td>Erik Kripke</td>
+                <td>5/5</td>
+            </tr>
+            <tr>
+                <td>Game of Thrones</td>
+                <td>George R.R</td>
+                <td>5/5</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="sec" id="cont-but">
+        <h2 class="title-sec">Contact me</h2>
+        <hr>
+        <ol>
+            <li><a href="mailto:mupgutierrez@hotmail.com?subject=Job Offer &body=I would like you to work at my company :)">Send me an email</a></li>
+            <li><a href="https://github.com/MarcoPerez16" target="_blank">Check my Git</a></li>
+            <li><a href="https://www.linkedin.com/in/marco-p%C3%A9rez-guti%C3%A9rrez-98604b202/" target="_blank">Check my Linkedin</a></li>
+        </ol>
+
+    </section>
+
+    <footer>
+        <hr>
+        <p class="footerText">2022 Copyrights - <span>All Rights Reserved</span></p>
+    </footer>
+
+</body>
+
+</html>
